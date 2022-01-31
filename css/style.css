@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
 }
 
 /* Regola css per non far collassare il div */
@@ -18,7 +19,11 @@
     font-weight: bold;
 }
 
-p span:last-child {
+.bold {
+    font-weight: bold;
+}
+
+.decoration-txt {
     text-decoration: line-through;
 }
 
@@ -30,7 +35,6 @@ p span:last-child {
 .container {
     width: 70%;
     margin: 20px auto;
-    border: 1px dashed black;
 }
 
 .float {
@@ -54,6 +58,9 @@ div.product {
     position: relative;
 }
 
+.margin {
+  margin-bottom: 30px;  
+}
 
 /* Regole css per il cuore dei preferiti */
 div.heart {
@@ -80,13 +87,13 @@ div.heart {
     bottom: 20px;
 }
 
-.tags span:first-child {
+.bg-red {
     padding: 2.5px 5px;
     background-color: #eb0037;
     color: white;
 }
 
-.tags span:last-child {
+.bg-green {
     padding: 2.5px 5px;
     background-color: #00875a;
     color: white;
