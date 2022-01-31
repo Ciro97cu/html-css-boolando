@@ -102,7 +102,7 @@ div.heart {
     background-image: url(../img/1.webp);
 }
 
-.sec-img1:hover {
+.product:hover .img1 {
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@ div.heart {
     background-image: url(../img/2.webp);
 }
 
-.sec-img2:hover {
+.product:hover .img2 {
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -130,7 +130,7 @@ div.heart {
     background-image: url(../img/3.webp);
 }
 
-.sec-img3:hover {
+.product:hover .img3 {
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -144,7 +144,7 @@ div.heart {
     background-image: url(../img/4.webp);
 }
 
-.sec-img4:hover {
+.product:hover .img4 {
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -158,7 +158,7 @@ div.heart {
     background-image: url(../img/5.webp);
 }
 
-.sec-img5:hover {
+.product:hover .img5 {
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -172,7 +172,7 @@ div.heart {
     background-image: url(../img/6.webp);
 }
 
-.sec-img6:hover {
+.product:hover .img6 {
     height: 600px;
     background-size: cover;
     background-position: center;
