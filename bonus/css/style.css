@@ -1,0 +1,116 @@
+/* Regole css selettore universale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* Regola css per non far collassare il div */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Regole css colorazione e formattazione generale testi */
+.c-red {
+    color: red;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.decoration-txt {
+    text-decoration: line-through;
+}
+
+.small-txt {
+    font-size: 13px;
+}
+
+/* Regole css container schede flottate */
+.container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.float {
+    width: 32%;
+}
+
+.float-l {
+    float: left;
+    margin-right: 2%;
+}
+
+.float-r {
+    float: right;
+}
+
+article img {
+    width: 100%;
+}
+
+div.product {
+    position: relative;
+}
+
+.margin {
+  margin-bottom: 30px;  
+}
+
+/* Regole css per il cuore dei preferiti */
+div.heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 12px;
+}
+
+.product:hover .heart {
+    color: red;
+}
+
+/* fine regole */
+
+/* Regole css per i tag di ogni immagine */
+.tags {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.bg-red {
+    padding: 2.5px 5px;
+    background-color: #eb0037;
+    color: white;
+}
+
+.bg-green {
+    padding: 2.5px 5px;
+    background-color: #00875a;
+    color: white;
+}
+
+/* fine regole */
+
+/* Regole css per mostrare seconda immagine */
+.sec-img {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.product:hover .sec-img{
+    visibility: visible;
+}
+
+/* fine regole */
