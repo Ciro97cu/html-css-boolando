@@ -50,8 +50,10 @@
     float: right;
 }
 
-article img {
-    width: 100%;
+.img {
+    background-image: url(../img/1.webp);
+    height: 500px;
+    background-size: cover;
 }
 
 div.product {
@@ -111,6 +113,9 @@ div.heart {
 
 .product:hover .sec-img{
     visibility: visible;
+    background-image: url(../img/1b.webp);
+    height: 500px;
+    background-size: cover;
 }
 
 /* fine regole */
