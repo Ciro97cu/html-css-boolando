@@ -7,7 +7,7 @@
 }
 
 /* Regola css per non far collassare il div */
-.container::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;

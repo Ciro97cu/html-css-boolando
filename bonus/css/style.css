@@ -7,7 +7,7 @@
 }
 
 /* Regola css per non far collassare il div */
-.container::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
@@ -50,14 +50,9 @@
     float: right;
 }
 
-.img {
-    background-image: url(../img/1.webp);
-    height: 500px;
-    background-size: cover;
-}
-
 div.product {
     position: relative;
+    margin-bottom: 10px;
 }
 
 .margin {
@@ -80,8 +75,6 @@ div.heart {
     color: red;
 }
 
-/* fine regole */
-
 /* Regole css per i tag di ogni immagine */
 .tags {
     position: absolute;
@@ -101,21 +94,87 @@ div.heart {
     color: white;
 }
 
-/* fine regole */
-
-/* Regole css per mostrare seconda immagine */
-.sec-img {
-    visibility: hidden;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.product:hover .sec-img{
-    visibility: visible;
-    background-image: url(../img/1b.webp);
-    height: 500px;
+/* Regole css immagni */
+.img1 {
+    height: 600px;
     background-size: cover;
+    background-position: center;
+    background-image: url(../img/1.webp);
 }
 
-/* fine regole */
+.sec-img1:hover {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/1b.webp);
+}  
+
+.img2 {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/2.webp);
+}
+
+.sec-img2:hover {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/2b.webp);
+}  
+
+.img3 {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/3.webp);
+}
+
+.sec-img3:hover {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/3b.webp);
+}  
+
+.img4{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/4.webp);
+}
+
+.sec-img4:hover {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/4b.webp);
+}  
+
+.img5 {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/5.webp);
+}
+
+.sec-img5:hover {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/5b.webp);
+}  
+
+.img6 {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/6.webp);
+}
+
+.sec-img6:hover {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/6b.webp);
+}  
