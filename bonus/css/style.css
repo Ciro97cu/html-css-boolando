@@ -95,86 +95,57 @@ div.heart {
 }
 
 /* Regole css immagni */
-.img1 {
-    height: 600px;
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    height: 500px;
     background-size: cover;
     background-position: center;
+}
+
+
+.img1 {
     background-image: url(../img/1.webp);
 }
 
 .product:hover .img1 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/1b.webp);
 }  
 
 .img2 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/2.webp);
 }
 
 .product:hover .img2 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/2b.webp);
 }  
 
 .img3 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/3.webp);
 }
 
 .product:hover .img3 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/3b.webp);
 }  
 
 .img4{
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/4.webp);
 }
 
 .product:hover .img4 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/4b.webp);
 }  
 
 .img5 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/5.webp);
 }
 
 .product:hover .img5 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/5b.webp);
 }  
 
 .img6 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/6.webp);
 }
 
 .product:hover .img6 {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
     background-image: url(../img/6b.webp);
 }  
